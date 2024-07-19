@@ -1,0 +1,26 @@
+li {
+    list-style-type: none;
+}
+
+li img {
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 540px) {
+    body {
+        background-color: red;
+    } 
+
+    ul {
+        display: block;
+    }
+
+    li {
+        max-width: 33%;
+    }
+}
