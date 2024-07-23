@@ -32,19 +32,30 @@ nav{
     padding-bottom: 15px;
 }
 
-nav ul li {
+nav ul .menu {
     list-style: none;
-    display: inline;
+    display: inline-block;
     padding: 12px;
-    border-top:3px solid red;
 
     
 }
 
+.menu:hover {
+    border-top: 3px solid red;
+}
+
 .submenu {
     display: none;
+    position: absolute;
+    list-style: none;
 }
 
 nav ul li:hover .submenu {
-    background-color: red;
+    display: block;
+    background-color:white;
+    border: 1px solid red;
+    padding-left: 15px;
+    width: 200px;
+    color: white;
+
 }
