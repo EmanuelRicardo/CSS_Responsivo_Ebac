@@ -3,14 +3,33 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    
 }
 
 header {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.274);
+}
+
+header div {
     display: flex;
     justify-content: space-between;
+    padding: 12px 0;
+    max-width: 1024px;
+    margin: 0 auto;
+
+}
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding-left: 10px;
+}
+
+.submenu {
+    display: none;
 }
