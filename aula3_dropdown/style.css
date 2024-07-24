@@ -60,8 +60,20 @@ nav ul li:hover .submenu {
 
 }
 
+main {
+    padding-top: 50px;
+}
+
+h1 {
+    padding-bottom: 15px;
+}
+
 h3 {
     width: 30%;
+}
+
+#ultimas_noticias {
+    padding-top: 50px;
 }
 
 .ultimas_noticias {
@@ -71,4 +83,10 @@ h3 {
 
 .ultimas_noticias h3 {
     width: 70%;
+}
+
+
+
+article a {
+    width: 33%;
 }
