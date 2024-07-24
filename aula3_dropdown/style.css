@@ -64,6 +64,15 @@ main {
     padding-top: 50px;
 }
 
+#destaque a {
+    display: flex;
+}
+
+#destaque a h3 {
+    padding-left: 10px;
+    font-size: 30px;
+}
+
 h1 {
     padding-bottom: 15px;
 }
