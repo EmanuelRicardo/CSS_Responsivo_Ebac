@@ -61,10 +61,14 @@ nav ul li:hover .submenu {
 }
 
 h3 {
-    width: 20%;
+    width: 30%;
 }
 
 .ultimas_noticias {
     display: flex;
     justify-content: space-between;
+}
+
+.ultimas_noticias h3 {
+    width: 70%;
 }
