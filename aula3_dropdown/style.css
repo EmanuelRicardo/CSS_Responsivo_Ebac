@@ -59,3 +59,12 @@ nav ul li:hover .submenu {
     color: white;
 
 }
+
+h3 {
+    width: 20%;
+}
+
+.ultimas_noticias {
+    display: flex;
+    justify-content: space-between;
+}
