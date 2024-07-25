@@ -114,3 +114,41 @@ aside section article {
 aside h3 {
     width: 60%;
 }
+
+@media screen and (max-width: 767px) {
+    .conteudo {
+        display: block;
+    }
+
+    .container {
+        padding-left: 15px;
+    }
+
+    header .container div {
+        display: block;    
+    }
+
+    #destaque a {
+        display: block;
+    }
+
+    #destaque a h3 {
+        padding-left: 0;
+        font-size: 20px;
+    }
+
+    h3 {
+        width: 90%;
+    }
+
+    .ultimas_noticias {
+        display: block;
+    }
+
+    .ultimas_noticias article {
+        padding-bottom: 25px;
+    }
+
+    
+
+}
