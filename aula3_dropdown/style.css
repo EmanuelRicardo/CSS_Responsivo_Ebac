@@ -119,12 +119,13 @@ aside h3 {
     width: 60%;
 }
 
+/*Iphone SE*/
 @media screen and (max-width: 767px) {
     .conteudo {
         display: block;
     }
 
-    .container {
+    .container, aside section {
         padding-left: 15px;
     }
 
@@ -174,7 +175,40 @@ aside h3 {
     .ultimas_noticias article {
         padding-bottom: 25px;
     }
+}
 
+/*Ipad Air*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        max-width: 95%;
+        align-items: 0 auto;
+    }
+
+    aside img {
+        width: 90%;
+    }
+
+    .ultimas_noticias {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .ultimas_noticias article {
+        padding-bottom: 30px;
+    }
+
+    #destaque a img {
+        height: 30%;
+    }
+
+    #destaque a h3 {
+        font-size: 140%
+    }
+
+    aside section {
+        border-left: 2px solid rgba(0, 0, 0, 0.253);
+        padding-left: 10px;
+    }
     
 
 }
