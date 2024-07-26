@@ -4,7 +4,13 @@ var abrir_submenu_celular2 = window.document.getElementsByClassName ('submenu')[
 
 function botao_menu() {
     
-    abrir_menu_celular.style.display = 'block'
-    abrir_submenu_celular.style.display = 'block'
-    abrir_submenu_celular2.style.display = 'block'
+    if (abrir_menu_celular.style.display == 'none' && abrir_submenu_celular.style.display == 'none' && abrir_submenu_celular2.style.display == 'none'){
+        abrir_menu_celular.style.display = 'block'
+        abrir_submenu_celular.style.display = 'block'
+        abrir_submenu_celular2.style.display = 'block' 
+    } else {
+        abrir_menu_celular.style.display = 'none'
+        abrir_submenu_celular.style.display = 'none'
+        abrir_submenu_celular2.style.display = 'none' 
+    }
 }
