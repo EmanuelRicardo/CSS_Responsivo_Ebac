@@ -139,11 +139,19 @@ aside h3 {
     header #botao_menu{
         display: inline;
         margin-bottom: 10px;
+        margin-top: 8px;
         padding: 5px;
     }
 
     header nav {
         display: none;
+        padding-top: 20px;
+    }
+
+    .submenu {
+        display: none;
+        position: relative;
+        list-style: none;
     }
 
     #destaque a {
