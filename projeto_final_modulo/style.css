@@ -20,6 +20,7 @@ img {
 header {
     background-color: rgba(9, 9, 170, 0.637);
     padding: 10px 0;
+    color: white;
 }
 
 header div {
@@ -35,7 +36,7 @@ header div li {
 }
 
 header div li a {
-    color: black;
+    color: white;
     font-weight: bold;
 }
 
@@ -46,6 +47,7 @@ header div li a {
 
 #parte_inicial .sobre_loja {
     padding: 15px;
+    color: #333333 ;
 }
 
 #parte_inicial .sobre_loja h2 {
@@ -60,6 +62,7 @@ header div li a {
 
 #produtos {
     padding-top: 60px;
+    color: #333333;
 }
 
 #produtos h2 {
@@ -80,10 +83,11 @@ header div li a {
 
 #produtos #coluna_de_produtos button{
     width: 80%;
-    background-color: blue;
+    background-color: black;
     color: white;
     font-weight: bold;
     padding: 5px;
+    margin-top: 8px;
 }
 
 
