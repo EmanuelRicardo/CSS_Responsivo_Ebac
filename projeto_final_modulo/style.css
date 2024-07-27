@@ -4,9 +4,17 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
 .container {
     margin: 0 auto;
     max-width: 1024px;
+}
+
+img {
+    width: 300px;
 }
 
 header {
@@ -77,4 +85,5 @@ header div li a {
     font-weight: bold;
     padding: 5px;
 }
+
 
