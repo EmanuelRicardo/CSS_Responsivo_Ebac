@@ -103,6 +103,10 @@ header div li a {
         padding-bottom: 8px;
     }
 
+    header ul li a {
+        color: rgba(255, 255, 255, 0.521);
+    }
+
     #parte_inicial {
         display: block;
     }
@@ -136,7 +140,7 @@ header div li a {
     }
 
     #produtos #coluna_de_produtos img {
-        border-top: 2px solid rgba(0, 0, 0, 0.26);
+        border-top: 2px solid rgba(0, 0, 0, 0.486);
     }
 
     #produtos #coluna_de_produtos article {
