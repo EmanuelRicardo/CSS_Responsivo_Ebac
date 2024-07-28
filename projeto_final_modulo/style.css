@@ -87,6 +87,59 @@ header div li a {
     font-weight: bold;
     padding: 5px;
     margin-top: 8px;
+    cursor: pointer;
+    
 }
 
 
+@media screen and (max-width: 768px) {
+    header div {
+        display: block;
+        text-align: center;
+    }
+
+    header ul {
+        padding-top: 15px;
+        padding-bottom: 8px;
+    }
+
+    #parte_inicial {
+        display: block;
+    }
+
+    #parte_inicial picture img {
+        padding-left: 15%;
+    }
+
+    #parte_inicial .sobre_loja {
+        width: 90%;
+    }
+
+    #parte_inicial .sobre_loja h2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    #produtos div {
+        display: flex;
+        justify-content: center;
+    }
+
+    #produtos div h2 {
+        border-bottom: none;
+    }
+
+    #produtos #coluna_de_produtos{
+        display: block;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    #produtos #coluna_de_produtos img {
+        border-top: 2px solid rgba(0, 0, 0, 0.26);
+    }
+
+    #produtos #coluna_de_produtos article {
+        padding-top: 30px;
+    }
+}
