@@ -71,7 +71,6 @@ header div li a {
 }
 
 #produtos #coluna_de_produtos{
-    padding-top: 20px;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     padding-bottom: 40px;
