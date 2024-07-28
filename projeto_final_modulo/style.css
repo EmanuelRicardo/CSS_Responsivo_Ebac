@@ -147,3 +147,36 @@ header div li a {
         padding-top: 30px;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        max-width: 90%;
+    }
+
+    header {
+        padding: 25px 0;
+    }
+
+    #parte_inicial {
+        display: block;
+    }
+
+    #parte_inicial picture {
+        display: flex;
+        justify-content: center;
+    }
+
+    #parte_inicial picture img {
+        width: 79%;
+    }
+
+    #parte_inicial .sobre_loja {
+        padding-top: 40px;
+    }
+
+    #produtos #coluna_de_produtos{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding-bottom: 40px;
+    }
+}
